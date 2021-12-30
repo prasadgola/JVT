@@ -1,0 +1,1017 @@
+<html>
+<head>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href ="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+<link rel='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="home1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/connect.js"></script> 
+
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!--====== Header Section Start ======-->
+<nav  class=" navbar navbar-dark navbar-expand-md  fixed-top" >
+  <div class="container-fluid">
+    <div class="jvtconnect ">
+      <h1 style="color: white;">JVTConnect</h1>
+     </div>
+    
+  <button class="navbar-toggler navbar-toggler " type="button"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" ></span>
+    
+  </button>
+  <div class="collapse navbar-collapse" style="background: linear-gradient(to right,green,blue);" style="padding-top: 10px;" style="width: 100%;" id="navbarNav">
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class=""  href="home.html" style="color: white;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class=""   href="view-report.html" style="color: white;">view-report</a>
+      </li>
+      <li class="nav-item">
+        <a class=""   href="view-report.html" style="color: white;">My Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class=""   href="contactus.html" style="color: white;">Need Help?</a>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn btn-outline-primary "   ><a class="logout" href="login.html" style="color: white;">Logout</a></button>
+      </li>
+     
+    </ul>
+</div>
+</nav>
+<div >  
+    <div class="box">
+       <div class="content">
+         <h2>JVT process</h2>
+       </div>
+     </div>
+   
+</div>
+
+<!--Different Buttons ------------------>  
+<div>
+    <img src="one.png"  class="one-one btn-default " data-toggle="modal" data-target="#example "  data-backdrop="static" data-keyboard="false" style="color: green";>
+
+    <div class="modal fade model-xl" id="example"  role="dialog" >
+      <div class="modal-dialog modal-xl" role="document">
+   <div class="modal-content">
+     <div class="modal-header header1" >  
+       <h5 style="color: white;">Enter One to One</h5>
+        <button type="button btn-lg" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true" style="size: 10px;"> &times; </button>
+     </div>
+     <h2 class="modal-title" style="color: maroon;"> <img class="img2" src="one-one.jpg">
+   &nbsp;&nbsp;&nbsp;JVT One-to-One follow up</h2>
+     
+        <div class="modal-body" style="background-color: whitesmoke;"><br>
+            <form  id="demoForm">
+                <div class="form-group row justify-content-md-center">
+             <label class="col-sm-2 col-form-label required">Met with</label>
+             <div class="col-sm-6">
+               <select  class="form-control " id="name" name="name" placeholder="Discussed with" required>
+                 <option>select</option>
+                 <option>option</option>
+               </select>
+             </div>
+           </div>
+           <div class="form-group row justify-content-md-center">
+             <label  class="col-sm-2 col-form-label required">Invited By</label>
+             <div class="col-sm-6">
+               <select  class="form-control" id="name" placeholder="Invited By" required>
+                 <option>select</option>
+                 <option>prashanth</option>
+               </select>
+             </div>
+           </div>
+           <div class="form-group row justify-content-md-center">
+             <label  class="col-sm-2 col-form-label required">Ratings</label>
+             <div class="col-sm-6">
+               <select  class="form-control" id="name" placeholder="Invited By" required>
+                 <option>select</option>
+                 <option>1</option>
+                 <option>2</option>
+                 <option>3</option>
+                 <option>4</option>
+                 <option>5</option>
+               </select>
+             </div>
+           </div>
+           <div class="form-group row justify-content-md-center">
+             <label  class="col-sm-2 col-form-label required">Topic Name</label>
+             <div class="col-sm-6">
+               <input type="text"  class="form-control " id="topic_name" placeholder="Discussed about" required>
+             </div>
+           </div>
+           <div class="form-group row justify-content-md-center">
+             <label  class="col-sm-2 col-form-label required">Date</label>
+             <div class="col-sm-6">
+               <input type="Date"  class="form-control " id="" required>
+             </div>
+           </div>
+          
+         </div>
+               <div class="modal-footer ">
+                <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+          </div>  
+     
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+<!--daily presentation------>
+<div>
+<img src="daily.png" class="daily , rotate" class="daily  btn-success" type="button" data-toggle="modal" data-target="#daily "  data-backdrop="static" data-keyboard="false">
+
+<div class="modal fade model-xl" id="daily"  role="dialog" >
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content " >
+<div class="modal-header header1" > 
+   <h5 style="color: white;">Enter Daily presentation</h2>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+ </div>
+
+ <h2 class="modal-title" style="color: hotpink;" > <img class="img2" src="presentation.jpg">
+   &nbsp;&nbsp;&nbsp;JVT Daily Presentation follow up</h2>
+ 
+ <div class="modal-body" style="background-color: whitesmoke;"><br>
+    <form  id="demoForm">
+       <div class="form-group row justify-content-md-center">
+          <label for="staticEmail" class="col-sm-2 col-form-label required">Topic Name</label>
+          <div class="col-sm-6">
+            <input type="text"  class="form-control " id="topic_name" placeholder="Presented about">
+          </div>
+        </div>
+   <div class="form-group row justify-content-md-center">
+     <label for="inputPassword" class="col-sm-2 col-form-label required">Duration</label>
+     <div class="col-sm-6">
+       <input type="time" class="form-control" id="name" name="time" placeholder="Invited By" required>
+     </div>
+   </div>
+  
+   <div class="form-group row justify-content-md-center">
+     <label for="staticEmail" class="col-sm-2 col-form-label required">Date</label>
+     <div class="col-sm-6">
+       <input type="Date"  class="form-control " id="">
+     </div>
+   </div>
+
+   <div class="form-group row justify-content-md-center">
+     <label for="staticEmail" class="col-sm-2 col-form-label required">Best Presenter</label>
+   <div class="col-sm-6">
+     <select  class="form-control" id="name" placeholder="Invited By" required>
+       <option>select........Today's Best Presenter</option>
+       <option>prashanth</option>
+     </select>
+   </div>
+   </div>
+ </div>
+<div class="modal-footer">
+<button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+</div>  
+</form>
+
+</div>
+</div>
+</div>   
+
+
+<!--weekly presentation-->
+<div>
+    <img src="week.png" class="weekly , rotate" class="weekly btn-success" type="button" data-toggle="modal" data-target="#weekly"  data-backdrop="static" data-keyboard="false">
+
+    <div class="modal fade model-xl" id="weekly"  role="dialog" >
+     <div class="modal-dialog modal-xl" role="document">
+   <div class="modal-content " >
+     <div class="modal-header header1" > 
+         <h5 style="color: white;">Enter Weekly presentation</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+       </div>
+     
+       <h2 class="modal-title" style="color: hotpink;" > <img class="img2" src="presentation.jpg">
+         &nbsp;&nbsp;&nbsp;JVT Weekly Presentation follow up</h2>
+       
+       <div class="modal-body" style="background-color: whitesmoke;"><br>
+          <form  id="demoForm">
+             <div class="form-group row justify-content-md-center">
+                <label for="staticEmail" class="col-sm-2 col-form-label required">Topic Name</label>
+                <div class="col-sm-6">
+                  <input type="text"  class="form-control " id="topic_name" placeholder="Presented about">
+                </div>
+              </div>
+         <div class="form-group row justify-content-md-center">
+           <label for="inputPassword" class="col-sm-2 col-form-label required">Duration</label>
+           <div class="col-sm-6">
+             <input type="time" class="form-control" id="name" name="time"  required>
+           </div>
+         </div>
+        
+         <div class="form-group row justify-content-md-center">
+           <label for="staticEmail" class="col-sm-2 col-form-label required">Date</label>
+           <div class="col-sm-6">
+             <input type="Date"  class="form-control " id="">
+           </div>
+         </div>
+         <div class="form-group row justify-content-md-center">
+           <label for="staticEmail" class="col-sm-2 col-form-label required"> Presenter of the week</label>
+         <div class="col-sm-6">
+           <select  class="form-control" id="name" placeholder="Invited By" required>
+             <option>select........Best Presenter of this Week</option>
+             <option>prashanth</option>
+           </select>
+         </div>
+         </div>
+      
+       </div>
+ <div class="modal-footer">
+    <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+ </div>  
+ </form>
+ 
+ </div>
+ </div>
+ </div>   
+ 
+
+<div>
+<img src="outing.png" class="social , rotate" class="social btn-success" type="button" data-toggle="modal" data-target="#social"  data-backdrop="static" data-keyboard="false">
+<div class="modal fade model-xl" id="social"  role="dialog" >
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content " >
+<div class="modal-header header1" > 
+ <h5 style="color: white;">Enter team Outing Details</h2>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+</div>
+
+<h2 class="modal-title" style="color: hotpink;" > 
+ &nbsp;&nbsp;&nbsp;JVT Social's follow up</h2>
+
+<div class="modal-body" style="background-color: whitesmoke;"><br>
+             <div class="form-group  row justify-content-md-center">
+                <label  class="col-sm-2 col-form-label required">Date</label>
+                <div class="col-sm-6">
+                  <input type="Date"  class="form-control " id="" required>
+                </div>
+              </div>
+          
+            
+         <div class="form-group  row justify-content-md-center">
+           <label for="inputPassword" class="col-sm-2 col-form-label required">Place </label>
+           <div class="col-sm-6">
+             <input type="password" class="form-control" id="name" placeholder="Place where you met" required>
+           </div>
+         </div>
+         <div class="form-group  row justify-content-md-center">
+           <label for="staticEmail" class="col-sm-2 col-form-label required">Topic </label>
+           <div class="col-sm-6">
+             <input type="text"  class="form-control " id="topic_name" placeholder="Discussed about" required>
+           </div>
+         </div>
+         <div class="form-group  row justify-content-md-center">
+          <label for="staticEmail" class="col-sm-2 col-form-label required">Upload Pic</label>
+          <div class="col-sm-6">
+            <input type="file"  class="form-control " id="" required>
+          </div>
+        </div>
+    
+         
+  <div class="modal-footer">
+         <button type="button" class="btn-success btn-lg">Save and Close</button>
+   </div> 
+  </div>
+</div>
+</div> 
+</div>
+</div>
+
+
+<div>
+ <img src="visitor.png" class="visit , rotate" class="visitor btn-success" type="button" data-toggle="modal" data-target="#visitor"  data-backdrop="static" data-keyboard="false">
+ <div class="modal fade" id="visitor"  role="dialog" >
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content " >
+     <div class="modal-header header1" > 
+         <h5 style="color: white;">Enter Visitors Details</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+       </div>
+     
+       <h2 class="modal-title" style="color: hotpink;" > <img class="img2" src="visitors.jpg" >
+         &nbsp;&nbsp;&nbsp;JVT Visitors Slip</h2>
+       
+       <div class="modal-body" style="background-color: whitesmoke;"><br>
+
+                   <div class="form-group row justify-content-md-center">
+                      <label for="visitor" class="col-sm-2 col-form-label required">Number of Visitors</label>
+                      <div class="col-sm-6">
+                        <input type="text"  class="form-control " id="topic_name" placeholder="Enter numbers" required>
+                      </div>
+                    </div>
+                   <div class="form-group row justify-content-md-center">
+                      <label for="date" class="col-sm-2 col-form-label required">Date</label>
+                      <div class="col-sm-6">
+                        <input type="Date"  class="form-control " id="" required>
+                      </div>
+                    </div>
+                    <div class="form-group row justify-content-md-center">
+                      <label for="topic" class="col-sm-2 col-form-label required">Topic </label>
+                      <div class="col-sm-6">
+                        <input type="text"  class="form-control " id="topic_name" placeholder="Presentation about" required>
+                      </div>
+                    </div>
+                
+          <div class="form-group row justify-content-md-center">
+                <label for="photo" class="col-sm-2 col-form-label required">Upload Pic</label>
+                <div class="col-sm-6">
+                  <input type="file"  class="form-control " id="" required>
+                </div>
+              </div>
+          
+               
+             
+              <div class="modal-footer">
+                <button type="button" class="btn-success btn-lg">Save and Close</button>
+          </div> 
+         </div>
+       </div>
+      </div> 
+      </div>
+     </div>
+  
+
+
+<div>  
+<img src="given.png" class="refer , rotate" class="given btn-success" type="button" data-toggle="modal" data-target="#given"  data-backdrop="static" data-keyboard="false">
+
+<div class="modal fade" id="given"  role="dialog" >
+<div class="modal-dialog modal-xl" role="document">
+  <div class="modal-content " >
+   <div class="modal-header header1" > 
+       <h5 style="color: white;">Enter referral Details</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+     </div>
+   
+     <h2 class="modal-title" style="color: hotpink;" > 
+       &nbsp;&nbsp;&nbsp;JVT Referrals Given Slip</h2>
+     
+     <div class="modal-body" style="background-color: whitesmoke;"><br>
+                   
+                
+                  
+               <div class="form-group  row justify-content-md-center">
+                 <label for="text" class="col-sm-2 col-form-label required">Referral </label>
+                 <div class="col-sm-6">
+                   <input type="text" class="form-control" id="name" placeholder="Referral Name" required>
+                 </div>
+               </div>
+
+
+
+              <div class="form-group row justify-content-md-center">
+                <label for="staticEmail" class="col-sm-2 col-form-label required">Referral Type</label>
+              <div class="col-sm-6">
+                <select  class="form-control" id="name"  required>
+                  <option>Inside</option>
+                  <option>outside</option>
+                </select>
+              </div>
+              </div>
+
+              
+              <div class="form-group row justify-content-md-center">
+                <label for="staticEmail" class="col-sm-2 col-form-label required">Referral Status</label>
+              <div class="col-sm-6">
+                <select  class="form-control" id="name"  required>
+                  <option>Given your card</option>
+                  <option>Told them you would call</option>
+                </select>
+              </div>
+              </div>
+
+               <div class="form-group  row justify-content-md-center">
+                 <label for="staticEmail" class="col-sm-2 col-form-label">Address </label>
+                 <div class="col-sm-6">
+                   <input type="text"  class="form-control " id="address" pla>
+                 </div>
+               </div>
+
+               <div class="form-group  row justify-content-md-center">
+                <label for="staticEmail" class="col-sm-2 col-form-label required">Mobile No </label>
+                <div class="col-sm-6">
+                  <input type="Mobilenumber"  class="form-control " id="number"  maxlength="10" placeholder="" required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="star-rating">
+                    <span class="fa fa-star-o" data-rating="1"></span>
+                    <span class="fa fa-star-o" data-rating="2"></span>
+                    <span class="fa fa-star-o" data-rating="3"></span>
+                    <span class="fa fa-star-o" data-rating="4"></span>
+                    <span class="fa fa-star-o" data-rating="5"></span>
+                    <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+                  </div>
+                </div>
+              </div>
+               
+               
+        <div class="modal-footer">
+               <button type="button" class="btn-success btn-lg">Save and Close</button>
+         </div> 
+        </div>
+      </div>
+     </div> 
+     </div>
+    </div>
+  
+
+
+
+<div>
+
+<img src="contact.png" class="contact , rotate"class="taken  btn-success" type="button" data-toggle="modal" data-target="#contact"  data-backdrop="static" data-keyboard="false">
+<div class="modal fade model-xl" id="contact"  role="dialog" >
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content " >
+<div class="modal-header header1" > 
+  <h5 style="color: white;">Enter Contact Sphere</h2>
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+</div>
+
+<h2 class="modal-title" style="color: hotpink;" > 
+  &nbsp;&nbsp;&nbsp;JVT Contact Sphere  follow up</h2>
+
+<div class="modal-body" style="background-color: whitesmoke;"><br>
+   <form  id="demoForm">
+    
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label required">Referred To</label>
+      <div class="col-sm-3 col">
+        <input type="text" class="form-control" id="inputPassword" placeholder="name">
+      </div>
+      <div class="col-sm-3 col">
+       <input type="text" class="form-control" id="inputPassword" maxlength="10" placeholder="phone no.">
+     </div>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+    </div>
+    </div>
+    <div class="form-group row">
+     <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="name">
+    </div>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+  </div>
+   </div>
+   <div class="form-group row">
+     <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="name">
+    </div>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+  </div>
+   </div>
+   <div class="form-group row">
+     <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="name">
+    </div>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+  </div>
+   </div>
+   <div class="form-group row">
+     <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="name">
+    </div>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+  </div>
+   </div>
+   <div class="form-group row">
+     <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="name">
+    </div>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+  </div>
+   </div>
+  
+   <div class="form-group row">
+     <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+     <div class="col-sm-3 col">
+      <input type="text" class="form-control" id="inputPassword" placeholder="name">
+    </div>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+  </div>
+   </div>
+
+   <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="name">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+  </div>
+  <div class="col-sm-3 col">
+   <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+ </div>
+  </div>
+ 
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="name">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+  </div>
+  <div class="col-sm-3 col">
+   <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+ </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label "></label>
+    <div class="col-sm-3 col">
+     <input type="text" class="form-control" id="inputPassword" placeholder="name">
+   </div>
+   <div class="col-sm-3 col">
+    <input type="text" class="form-control" id="inputPassword" placeholder="phone no.">
+  </div>
+  <div class="col-sm-3 col">
+   <input type="text" class="form-control" id="inputPassword" placeholder="Email Id">
+ </div>
+  </div>
+<div class="modal-footer">
+<button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+</div>  
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div>
+
+ 
+<img src="training.png" class="training , rotate" class="training  btn-success" type="button" data-toggle="modal" data-target="#training"  data-backdrop="static" data-keyboard="false">
+  
+ <div class="modal fade model-xl" id="training"  role="dialog" >
+   <div class="modal-dialog modal-xl" role="document">
+ <div class="modal-content " >
+   <div class="modal-header header1" > 
+       <h5 style="color: white;">Enter Training Detailes</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+     </div>
+   
+     <h2 class="modal-title" style="color: hotpink;" > 
+       &nbsp;&nbsp;&nbsp;JVT Training follow up</h2>
+     
+     <div class="modal-body" style="background-color: whitesmoke;"><br>
+        <form  id="demoForm">
+           <div class="form-group row justify-content-md-center">
+              <label for="staticEmail" class="col-sm-2 col-form-label required">Start Date</label>
+              <div class="col-sm-6">
+                <input type="date"  class="form-control " id="topic_name" placeholder="Presented about">
+              </div>
+            </div>
+       <div class="form-group row justify-content-md-center">
+         <label for="inputPassword" class="col-sm-2 col-form-label required">End date</label>
+         <div class="col-sm-6">
+           <input type="date" class="form-control" id="name" name="time" placeholder="Invited By" required>
+         </div>
+       </div>
+      
+       <div class="form-group row justify-content-md-center">
+         <label for="staticEmail" class="col-sm-2 col-form-label required">Subject</label>
+         <div class="col-sm-6">
+           <input type="text"  class="form-control " id="text" placeholder="Name of Subject " required>
+         </div>
+       </div>
+     
+
+       <div class="row">
+        <div class="col-lg-12">
+          <div class="star-rating">
+            <span class="fa fa-star-o" data-rating="1"></span>
+            <span class="fa fa-star-o" data-rating="2"></span>
+            <span class="fa fa-star-o" data-rating="3"></span>
+            <span class="fa fa-star-o" data-rating="4"></span>
+            <span class="fa fa-star-o" data-rating="5"></span>
+            <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+          </div>
+        </div>
+      </div>
+       
+     </div>
+<div class="modal-footer">
+  <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+</div>  
+</form>
+
+</div>
+</div>
+</div>
+
+
+     <div>
+     
+      
+        <img src="mock.png" class="mock , rotate" class="mock  btn-success" type="button" data-toggle="modal" data-target="#mock"  data-backdrop="static" data-keyboard="false">
+        
+        <div class="modal fade model-xl" id="mock"  role="dialog" >
+          <div class="modal-dialog modal-xl" role="document">
+       <div class="modal-content">
+         <div class="modal-header header1" >  
+           <h5 style="color: white;">Enter Mock interview detailes</h5>
+            <button type="button btn-lg" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true" style="size: 10px;"> &times; </button>
+         </div>
+         <h2 class="modal-title" style="color: maroon;"> <img class="img2" src="one-one.jpg" >
+       &nbsp;&nbsp;&nbsp;JVT Mock Interview </h2>
+         
+            <div class="modal-body" style="background-color: whitesmoke;"><br>
+                <form  id="demoForm">
+                    <div class="form-group row justify-content-md-center">
+                 <label class="col-sm-2 col-form-label required">Met with</label>
+                 <div class="col-sm-6">
+                   <select  class="form-control " id="name" name="name" placeholder="Discussed with" required>
+                     <option>select</option>
+                     <option>option</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row justify-content-md-center">
+                 <label  class="col-sm-2 col-form-label required">Invited By</label>
+                 <div class="col-sm-6">
+                   <select  class="form-control" id="name" placeholder="Invited By" required>
+                     <option>select</option>
+                     <option>prashanth</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row justify-content-md-center">
+                 <label  class="col-sm-2 col-form-label required">Ratings</label>
+                 <div class="col-sm-6">
+                   <select  class="form-control" id="name" placeholder="Invited By" required>
+                     <option>select</option>
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row justify-content-md-center">
+                 <label  class="col-sm-2 col-form-label required">Topic Name</label>
+                 <div class="col-sm-6">
+                   <input type="text"  class="form-control " id="topic_name" placeholder="Discussed about" required>
+                 </div>
+               </div>
+               <div class="form-group row justify-content-md-center">
+                 <label  class="col-sm-2 col-form-label required">Date</label>
+                 <div class="col-sm-6">
+                   <input type="Date"  class="form-control " id="" required>
+                 </div>
+               </div>
+              
+             </div>
+                   <div class="modal-footer ">
+                    <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+              </div>  
+         
+                </form>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+      <div>
+             
+             <img src="invite.png" class="invite , rotate"class="invite btn-success " data-toggle="modal" data-target="#invite "  data-backdrop="static" data-keyboard="false">
+     
+             <div class="modal fade model-xl" id="invite"  role="dialog" >
+               <div class="modal-dialog modal-xl" role="document">
+             <div class="modal-content " >
+               <div class="modal-header header1" > 
+                   <h5 style="color: white;">Enter Invite visitors</h2>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+                 </div>
+               
+                 <h2 class="modal-title" style="color: hotpink;" > <img class="img2" src="visitors.jpg" >
+                   &nbsp;&nbsp;&nbsp;JVT Invite visitors follow up</h2>
+                 
+                 <div class="modal-body" style="background-color: whitesmoke;"><br>
+                    <form  id="demoForm">
+                     <div class="form-group row justify-content-md-center ">
+                       <label  class="col-sm-3 col-form-label required">Title</label>
+                       <div class="col-sm-6">
+                         <select  class="form-control" id="name" required>
+                           <option>select Title</option>
+                           <option>Mr</option>
+                           <option>Dr</option>
+                           <option>Mrs</option>
+                           <option>Miss</option>
+                           <option>Ms</option>
+                           <option>Prof.</option>
+                         </select>
+                       </div>
+                     </div>
+                       <div class="form-group row justify-content-md-center">
+                          <label for="staticEmail" class="col-sm-3 col-form-label required">First Name</label>
+                          <div class="col-sm-6">
+                            <input type="text"  class="form-control " id="topic_name" placeholder="Enter you First name">
+                          </div>
+                        </div>
+                        <div class="form-group row justify-content-md-center">
+                         <label for="staticEmail" class="col-sm-3 col-form-label required">Last Name</label>
+                         <div class="col-sm-6 ">
+                           <input type="text"  class="form-control " id="topic_name" placeholder="Enter you Last name">
+                         </div>
+                       </div>
+                
+                 
+                   <div class="form-group row justify-content-md-center ">
+                     <label for="staticEmail" class="col-sm-3 col-form-label required">Visitor Company Name</label>
+                     <div class="col-sm-6 ">
+                       <input type="text"  class="form-control " id="text" placeholder="company name" required>
+                     </div>
+                   </div>
+     
+                   <div class="form-group row justify-content-md-center">
+                     <label for="staticEmail" class="col-sm-3 col-form-label required">Vistor Email'id</label>
+                     <div class="col-sm-6 ">
+                       <input type="text"  class="form-control " id="text" placeholder="Email Id" required>
+                     </div>
+                   </div>
+
+                     <div class="form-group row justify-content-md-center">
+                     <label for="staticEmail" class="col-sm-3 col-form-label required">Company Name</label>
+                     <div class="col-sm-6 ">
+                       <input type="text"  class="form-control " id="text" placeholder="Company Name" required>
+                     </div>
+                   </div>
+                 
+     
+                   <div class="form-group row justify-content-md-center">
+                     <label for="staticEmail" class="col-sm-3 col-form-label required">Personal Message</label>
+                     <div class="col-sm-6 ">
+                       <textarea   class="form-control "></textarea>
+                     </div>
+                   </div>
+     
+                 
+                 
+             <div class="modal-footer">
+              <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+             </div>  
+             </form>
+             
+             </div>
+             </div>
+                </div>
+             </div>
+            </div>
+<div>
+     
+      
+<img src="thank.png" class="thank , rotate" class="ty  btn-success" type="button" data-toggle="modal" data-target="#ty"  data-backdrop="static" data-keyboard="false">
+
+<div class="modal fade model-xl" id="ty"  role="dialog" >
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-header header1" >  
+ <h5 style="color: white;">Enter  Jvt Thank you detailes</h5>
+  <button type="button btn-lg" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true" style="size: 10px;"> &times; </button>
+</div>
+<h2 class="modal-title" style="color: maroon;"> 
+&nbsp;&nbsp;&nbsp;JVT Thank you </h2>
+
+  <div class="modal-body" style="background-color: whitesmoke;"><br>
+      <form  id="demoForm">
+          <div class="form-group row justify-content-md-center">
+       <label class="col-sm-3 col-form-label required">ThankYou To</label>
+       <div class="col-sm-6">
+         <select  class="form-control " id="name" name="name" placeholder="Select thnk you to" required>
+           <option>select</option>
+           <option>option</option>
+         </select>
+       </div>
+     </div>
+
+     <div class="form-group row justify-content-md-center">
+      <label  class="col-sm-3 col-form-label required">Referral Amount</label>
+      <div class="col-sm-6">
+        <input type="text"  class="form-control " id="topic_name" placeholder="Enter amount" required>
+      </div>
+    </div>
+
+     <div class="form-group row justify-content-md-center">
+       <label  class="col-sm-3 col-form-label required">Business Type</label>
+       <div class="col-sm-6">
+         <select  class="form-control" id="name" placeholder="Invited By" required>
+           <option>new</option>
+           <option>repeat</option>
+         </select>
+       </div>
+     </div>
+     <div class="form-group row justify-content-md-center">
+       <label  class="col-sm-3 col-form-label required">Referral Type</label>
+       <div class="col-sm-6">
+         <select  class="form-control" id="name" placeholder="Invited By" required>
+           <option>inside</option>
+           <option>outside</option>
+          
+         </select>
+       </div>
+     </div>
+    
+     <div class="form-group row justify-content-md-center">
+      <label for="staticEmail" class="col-sm-3 col-form-label">Comments</label>
+      <div class="col-sm-6 ">
+        <textarea   class="form-control "></textarea>
+      </div>
+    </div>
+
+         <div class="modal-footer ">
+          <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+    </div>  
+
+      </form>
+    </div>
+    
+  </div>
+</div>
+</div>
+</div> 
+</div>
+<div>
+<img src="jobrecom.png" class="jobrecom , rotate" class="job btn-success" type="button" data-toggle="modal" data-target="#job"  data-backdrop="static" data-keyboard="false">
+    
+    <div class="modal fade model-xl" id="job"  role="dialog" >
+      <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content " >
+      <div class="modal-header header1" > 
+          <h5 style="color: white;">Enter Job Detailes</h2>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+        </div>
+      
+        <h2 class="modal-title" style="color: hotpink;" > 
+          &nbsp;&nbsp;&nbsp;JVT Job Recommendation follow up</h2>
+        
+        <div class="modal-body" style="background-color: whitesmoke;"><br>
+           <form  id="demoForm">
+              <div class="form-group row justify-content-md-center">
+                 <label for="staticEmail" class="col-sm-2 col-form-label required">Your Name</label>
+                 <div class="col-sm-6">
+                   <input type="text"  class="form-control " id="topic_name" placeholder="Enter you full name">
+                 </div>
+               </div>
+        
+          <div class="form-group row justify-content-md-center">
+            <label for="staticEmail" class="col-sm-2 col-form-label required">Experience</label>
+            <div class="col-sm-6">
+              <input type="text"  class="form-control " id="text" placeholder="Your experience" required>
+            </div>
+          </div>
+
+          <div class="form-group row justify-content-md-center">
+            <label for="staticEmail" class="col-sm-2 col-form-label required">CTC</label>
+            <div class="col-sm-6">
+              <input type="text"  class="form-control " id="text" placeholder="Your CTC" required>
+            </div>
+          </div>
+
+          <div class="form-group row justify-content-md-center">
+            <label for="staticEmail" class="col-sm-2 col-form-label required">Joining Date</label>
+            <div class="col-sm-6">
+              <input type="date"  class="form-control " id="text" required>
+            </div>
+          </div>
+
+          <div class="form-group row justify-content-md-center">
+            <label for="staticEmail" class="col-sm-2 col-form-label required">Company Name</label>
+            <div class="col-sm-6">
+              <input type="text"  class="form-control " id="text" placeholder="Company Name" required>
+            </div>
+          </div>
+        
+        
+    <div class="modal-footer">
+     <button type="submit" class="btn-success btn-lg" href="jvtconnect.html" style="border-radius: 3px;">Save and Close</button>
+    </div>  
+    </form>
+    
+    </div>
+    </div>
+       </div>
+    </div>
+</div>
+           
+           
+            
+          
+</div>
+</div>
+</div>
+
+<footer>
+<div class="row footer text-center">
+ <div class="col-mod-4">
+
+ </div>
+ <div class="col-mod-9 text-centered">
+     <p>    Copyright</p>
+ </div>
+ <div class="col-mod-4">
+   <a class="" href="#" >2020</a>
+ </div>
+
+</div>
+</footer>   
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.footer
+{
+
+position: absolute;
+background:linear-gradient(to right,rgb(31, 248, 31), blue);
+width: 250vh;
+height: 40vh;
+color: white;
+margin-top: 900px;
+}
+html,body{
+min-width: 100%;
+overflow-x: hidden;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.img1{
+height:50px;
+width:250px;
+border-radius: 0%;
+
+}
+
+
+
+</style>
+</body>
+</html>

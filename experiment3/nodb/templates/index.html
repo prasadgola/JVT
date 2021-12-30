@@ -1,0 +1,12 @@
+{% block content %}
+	<form action="{% url 'nodb' %}" method="post">
+		{% csrf_token %}
+			<tr>
+				<input type="text" name="username"><br>
+			</tr>
+			<tr>
+				<input type="password" name="password"><br>
+			</tr>
+		<button type = "submit">Login</button>
+	</form>
+{% endblock content %}

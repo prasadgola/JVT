@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html >
+       <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+         <link rel="stylesheet" type="text/css" href="jvtconnect.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+         <script src="signup.js"></script>  
+        </head>
+ <body>
+  
+    <!--header navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a  href="#">
+         <img class="logo" src="jvtlogo.jpg">
+     </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="navbar-brand" href="view-report.html">View report <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="contactus.html">Need Help?</a>
+          </li>
+         
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+<div class="jvtconnect ">
+  <h1>JVTConnect</h1>
+ </div>
+
+
+
+<div >  
+<div>
+  <button class="jvt-culture btn-success">JVT Cultural<br>Activity</button>
+</div>  
+  
+   
+  
+  <!--Different Buttons ------------------>  
+        <div>
+    <button type="button"  class="one-one btn-primary"  data-toggle="modal" data-target="#example"> one to one</button>
+    <div class="modal fade" id="example"  role="dialog" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+             <h4 class="modal-title" >&nbsp;&nbsp;&nbsp;One To One</h4>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+          </div>
+             <div class="modal-body"><br>
+                 <form onsubmit="return validate()">
+                    <div class="form-group">
+                       <input type="text" class="form-control"  placeholder="Topic Name">
+                    </div>
+                    <div class="form-group">
+                     <input type="text" class="form-control"  placeholder="Discussed with">
+                  </div>
+                   
+                    <div class="form-group">
+                       <input type="date"  class="form-control" >
+                    </div>
+                    <div class="form-group">
+                       <label  class="col-form-label col-sm-12 ">Duration:</label>
+                       <input type="time"  class="form-control">
+                    </div>
+                    <div class="modal-footer">
+                     <button type="submit" class="btn-success btn-block">Save</button>
+               </div>  
+                 </form>
+               </div>
+               
+             </div>
+           </div>
+         </div>
+        </div>
+
+
+<!--daily presentation------>
+<div >
+<button type="button" class="daily btn-secondary" data-toggle="modal" data-target="#daily">daily<br>Presentation</button>
+<div class="modal fade" id="daily"  role="dialog" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" >&nbsp;&nbsp;&nbsp;Daily Presentation</h4>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+      </div>
+<div class="modal-body"><br>
+  <form>
+     <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Topic Name">
+     </div>
+     <div class="form-group">
+      <label  class="col-form-label col-sm-12 ">Date:</label>
+      
+   </div>
+     <div class="form-group">
+        <input type="date"  class="form-control" >
+     </div>
+     <div class="form-group">
+        <label  class="col-form-label col-sm-12 ">Duration:</label>
+        <input type="time"  class="form-control">
+     </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn-success btn-block">Save</button>
+</div> 
+</div>
+</div>
+</div>
+</div>   
+
+
+<!--weekly presentation-->
+<div >
+   <button class="weekly btn-secondary" type="button" data-toggle="modal" data-target="#week">Weekly<br>Presentation</button>
+   <div class="modal fade" id="week"  role="dialog" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">&nbsp;&nbsp;&nbsp;Weekly Presentation</h4>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+        </div>
+     <div class="modal-body">
+    <form>
+       <div class="form-group">
+          <input type="text" class="form-control"  placeholder="Topic Name">
+       </div>
+       
+       <div class="form-group">
+        <label  class="col-form-label col-sm-12 ">Date:</label>
+        
+     </div>
+       <div class="form-group">
+          <input type="date"  class="form-control" >
+       </div>
+
+       <div class="form-group">
+          <label  class="col-form-label col-sm-12 ">Duration:</label>
+          <input type="time"  class="form-control">
+       </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+      <button type="button" class="btn-success btn-block">Save</button>
+  </div>
+   </div>
+</div>
+</div> 
+</div>
+
+
+<div>
+<button class="social btn-primary" type="button" data-toggle="modal" data-target="#social">Social's</button>
+<div class="modal fade" id="social"  role="dialog" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">&nbsp;&nbsp;&nbsp;Social's</h4>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+      </div>
+   <div class="modal-body">
+  <form>
+     <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Discussed about">
+     </div>
+     <div class="form-group">
+      <label  class="col-form-label col-sm-12 ">Date:</label>
+     
+   </div>
+    <div class="form-group">
+        <input type="date"  class="form-control" >
+     </div>
+     <div class="form-group">
+      <label  class="col-form-label col-sm-12 ">Upload your pic:</label>
+     
+   </div>
+
+     <div class="form-group">
+      <input type="file"  class="form-control" >
+   </div>
+          
+       <div class="modal-footer">
+              <button type="button" class="btn-success btn-block">Save</button>
+        </div> 
+       </div>
+     </div>
+    </div> 
+    </div>
+   </div>
+ 
+
+   <div>
+      <button class="visitor btn-primary" type="button" data-toggle="modal" data-target="#visitor">Visitor</button>
+      <div class="modal fade" id="visitor"  role="dialog" >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+               <img src="visitors.jpg" height="50px" width="50px">
+
+              <h4 class="modal-title">&nbsp;&nbsp;&nbsp;Social's</h4>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+            </div>
+         <div class="modal-body">
+        <form>
+           <div class="form-group">
+              <input type="text" class="form-control"  placeholder="Discussed about">
+           </div>
+           <div class="form-group">
+            <label  class="col-form-label col-sm-12 ">Date:</label>
+           
+         </div>
+          <div class="form-group">
+              <input type="date"  class="form-control" >
+           </div>
+           <div class="form-group">
+            <label  class="col-form-label col-sm-12 ">Upload your pic:</label>
+           
+         </div>
+      
+           <div class="form-group">
+            <input type="file"  class="form-control" >
+         </div>
+                
+             <div class="modal-footer">
+                    <button type="button" class="btn-success btn-block">Save</button>
+              </div> 
+             </div>
+           </div>
+          </div> 
+          </div>
+         </div>
+       
+ 
+
+ <div>  
+<button class="given btn-info" type="button" data-toggle="modal" data-target="#given">Referrals<br> Given</button>
+
+    <div class="modal fade" id="given"  role="dialog" >
+      <div class="modal-dialog" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h4 class="modal-title">&nbsp;&nbsp;&nbsp;Referral given</h4>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+         </div>
+   <div class="modal-body">
+  <form>
+     <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Number of Visitors">
+     </div>
+     <div class="form-group">
+      <label  class="col-form-label col-sm-12 ">Date:</label>
+     
+   </div>
+    <div class="form-group">
+        <input type="date"  class="form-control" >
+     </div>
+          
+       <div class="modal-footer">
+              <button type="button" class="btn-success btn-block">Save</button>
+        </div> 
+       </div>
+     </div>
+    </div> 
+    </div>
+   </div>
+
+
+<div>
+<button class="taken btn-warning" type="button" data-toggle="modal" data-target="#taken">Referrals<br> Taken</button>
+
+     <div class="modal fade" id="taken"  role="dialog" >
+       <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">&nbsp;&nbsp;&nbsp;Referrals Taken</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times; </button>
+          </div>
+    <div class="modal-body">
+   <form>
+      <div class="form-group">
+         <input type="text" class="form-control"  placeholder="Number of Visitors">
+      </div>
+      <div class="form-group">
+       <label  class="col-form-label col-sm-12 ">Date:</label>
+      
+    </div>
+     <div class="form-group">
+         <input type="date"  class="form-control" >
+      </div>
+           
+        <div class="modal-footer">
+               <button type="button" class="btn-success btn-block">Save</button>
+         </div> 
+        </div>
+      </div>
+     </div> 
+     </div>
+
+    </div></div>
+
+<footer>
+   <div class="row footer text-center">
+      <div class="col-mod-4">
+
+      </div>
+      <div class="col-mod-9 text-">
+          <p>Copyright</p>
+      </div>
+      <div class="col-mod-4">
+        <a class="" href="#" ></a>
+      </div>
+
+   </div>
+</footer>   
+</div>
+
+   
+  </body>    
+</html>  

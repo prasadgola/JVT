@@ -1,0 +1,70 @@
+
+.nav a
+{
+   font-size: 24px;
+}
+.container 
+{
+    margin-top: 100px;
+}
+.navbar
+{
+    
+    background: linear-gradient(to right,green,blue);
+    box-shadow: 0 8px 6px -6px black;
+    height: 70px;
+}
+.navbar-toggle,.icon-bar
+{
+    border: 1px solid orange;
+}
+.logout
+{
+    color: darkblue;
+    
+}
+.logout:hover
+{
+    text-decoration: none;
+}
+
+.logo
+{
+    height:60px;
+}
+.navbar-nav>li
+{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    
+}
+
+
+.jvtconnect
+{
+
+     color: green;
+
+     
+     border-radius: 10px;
+     
+     font-family: "Times New Roman", Times, serif;
+}
+.tab-content label 
+{
+    color: maroon;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tab-content p
+{
+    color: mediumblue;
+}
+.tab-content p
+{
+
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

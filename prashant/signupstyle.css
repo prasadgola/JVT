@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+body{
+
+	background-image: url("beach-bench-boardwalk-clouds-462024.jpg");
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+h1{
+	text-align: center;
+	color:blue;
+	font-family: lucida calligraphy;
+	font-size: 40px;
+	padding: 20px;
+
+}
+.register{
+	
+	width :600px;
+	margin: 0px 0px 0px 430px;
+	color: black;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#register{
+	margin-left: 100px;
+}
+#label{
+	color:white;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+#name{
+	width:200px;
+
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#dob{
+	width:200px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+#ph{
+	width:58px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+#num{
+	width:130px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+#loc{
+	width:210px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+#branch{
+	width:200px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+#sub{
+
+	background-color: green;
+	padding;7px 10px;
+	text-decoration:none;
+	color: white;
+	border-radius: 20%;
+	right: 10%;
+}
+#sub:hover{
+	background-color:green;
+	border: 2px solid black;
+}
+.model
+{
+	background-color: white;
+	height: 100%;
+	width: 100px;
+	align-content: center;
+}
+

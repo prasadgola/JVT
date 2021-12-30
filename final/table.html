@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table V02</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="table.css">
+
+</head>
+<body>
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table" id = "mytable">
+
+						<div class="row header">
+							<div class="cell">
+								Full Name
+							</div>
+							<div class="cell">
+								Age
+							</div>
+							<div class="cell">
+								Job Title
+							</div>
+						</div>
+
+
+					<form action="{% url 'adminpage' %}" method="post" enctype="multipart/form-data">
+            			{% csrf_token %}
+						{% for users in u %}
+							<button class="row" name="userid" type="submit" value="{{ users.user_id }}">
+									<div class="cell">
+										{{ users.firstname }}
+									</div>
+									<div class="cell">
+										{{ users.username }}
+									</div>
+									<div class="cell">
+										{{ users.specialization }}
+									</div>
+							</button>	
+						{% endfor %}
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+
+</body>
+</html>

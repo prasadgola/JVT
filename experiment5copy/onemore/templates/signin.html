@@ -1,0 +1,33 @@
+<html>
+  <head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/static.css' %}">
+
+  </head>
+    <body
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+        <h2 class="active"> Sign In </h2>
+        <h2 class="inactive underlineHover" >REGISTER </h2>
+    
+        <!-- Icon -->
+
+    
+  
+        <!-- Login Form -->
+        <form action="{% url 'allconnected' %}" method="post">
+          {% csrf_token %}
+          <input type="text" id="login" class="fadeIn second" name="userconnected" placeholder="login">
+          <input type="password" id="password" class="fadeIn third" name="passwordconnected" placeholder="password">
+          <input type="submit" class="fadeIn fourth" value="Log In">
+        </form>
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+          <a class="underlineHover" href="#">Forgot Password?</a>
+        </div>
+    
+      </div>
+    </div>
+    <body
+</html>

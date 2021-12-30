@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html >
+       <head>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" type="text/css" href="home1.css">
+       </head>
+<body>
+<!--JVT culture-->  
+<div> 
+    <div>
+        <button class="culture jvt-culture">JVT Cultures</button>
+    </div>
+<!--One to one activities>>>>>>>>>>>-->
+    <div>
+        <button class="culture one-one" onclick="openup()">One to one</button>
+        <div class="one--one" id="myForm">
+           <form action="" class="model-content">
+               <div>
+                   <img src="interview-icon.jpg" width="50px" height="50px" >
+                 </div>  
+                    
+                         <h3 id="ti"> ONE TO ONE</h3>
+                            <form action="">
+                               <input type="text" placeholder="With whom" ><br>
+                               <input type="text" placeholder="Topic"><br>
+                               <input type="text" placeholder="Duration"><br>
+                               <input type="time" placeholder="Time"><br>
+                               <div>
+                                   <button class="save">Save</button>
+                               </div>
+                               <div>
+                                   <button class="cancel" onclick="closeUp()">Cancel</button>
+                               </div>
+                               
+                             </form>   
+                          
+               </div>
+   
+    </div>
+           <script>
+                function openup() {
+                             document.getElementById("myForm").style.display = "block";
+                              }   
+           
+                function closeUp() {
+                             document.getElementById("myForm").style.display = "none";
+                             }
+           </script>
+<!--Daily presentation>>>>>>>>>>>>-->
+    <div>
+        <button class="culture daily" onclick="openF()">Daily<br>presentation</button>
+        <div class="one--one" id="daily pre">
+           <form action="" class="model-content">
+                 <div>
+                     <img src="pres.jpg" width="60px" height="60px" >
+                 </div>  
+                    
+                         <h3 id="ti">Daily<br>Presentation</h3>
+                            <form action="">
+                               <input type="date" ><br>
+                               <input type="text" placeholder="Topic"><br>
+                               <input type="text" placeholder="Duration"><br>
+                               
+                               <div>
+                                   <button class="save">Save</button>
+                               </div>
+                               <div>
+                                <button class="cancel" onclick="closeF()">Cancel</button>
+                               </div>
+                   
+                             </form>   
+                          
+
+        <script>
+             function openF() {
+                document.getElementById("daily pre").style.display = "block";
+                      }
+           
+             function closeF() {
+                document.getElementById("daily pre").style.display = "none";
+                       }
+           </script>  
+        </div>
+  </div>         
+
+  <!--weekly presentation >>>>>>>>>>>>>>>>>>>>>>--> 
+<div>
+<div>
+    <button class="culture daily" onclick="openfo()">weekly<br>presentation</button>
+        <div class="one--one" id="weekly pre">
+           <form action="" class="model-content">
+                    <div>
+                       <img src="pres.jpg" width="60px" height="60px" >
+                    </div>  
+                
+                      <h3 id="ti">weekly<br>Presentation</h3>
+                        <form action="">
+                           <input type="date" ><br>
+                           <input type="text" placeholder="Topic"><br>
+                           <input type="text" placeholder="Duration"><br>
+                           
+                           <div>
+                               <button class="save">Save</button>
+                           </div>
+                           <div>
+                            <button class="cancel" onclick="closefo()">Cancel</button>
+                           </div>
+               
+                         </form>   
+         </div>
+
+</div>
+    <script>
+       function openfo() {
+         document.getElementById("weekly pre").style.display = "block";
+       }
+       
+       function closefo() {
+         document.getElementById("weekly pre").style.display = "none";
+       }
+       </script>  
+</div>        
+<!--Visitors button-->  
+<div>
+    <button class="culture visitors" onclick="openpop()">Visitors</button>
+    <div class="one--one" id="visitors">
+       <form action="" class="model-content">
+              <div>
+                <img src="visitors.jpg" width="60px" height="60px" >
+              </div>  
+                
+                     <h3 id="ti">visitors</h3>
+                        <form action="">
+                           <input type="date" ><br>
+                           <input type="text" placeholder="Topic"><br>
+                           <input type="text" placeholder="Duration"><br>
+                           
+                           <div>
+                               <button class="save">Save</button>
+                           </div>
+                           <div>
+                            <button class="cancel" onclick="closepop()">Cancel</button>
+                           </div>
+               
+                         </form>   
+                      
+          
+
+    
+    <script>
+       function openpop() {
+         document.getElementById("visitors").style.display = "block";
+       }
+       
+       function closepop() {
+         document.getElementById("visitors").style.display = "none";
+       }
+       </script>  
+  </div>
+</div>         
+
+<!--Social's button-->  
+<div>
+  <button class="culture socials" onclick="openForm()">Social's</button>
+  <div class="one--one" id="social">
+     <form action="" class="model-content">
+         <div>
+             <img src="group.jpg" width="90px" height="70px" >
+           </div>  
+              
+                   <h3 id="ti">SOCIAL'S</h3>
+                      <form action="">
+                         <input type="date" ><br>
+                         <input type="text" placeholder="place"><br>
+                         <input type="text" placeholder="time"><br>
+                         <label for="img">take pic</label>
+                         <input type="image" id="img" name="img" accept="image/*">
+                         <input type="text" placeholder="Discussion about?"><br>
+                         <div>
+                             <button class="save">Save</button>
+                         </div>
+                         <div>
+                          <button class="cancel" onclick="closeForm()">Cancel</button>
+                         </div>
+             
+                       </form>   
+                    
+         </div>
+
+  
+  <script>
+     function openForm() {
+       document.getElementById("social").style.display = "block";
+     }
+     
+     function closeForm() {
+       document.getElementById("social").style.display = "none";
+     }
+     </script>   
+</div>
+</div>
+
+</body>    
+</html>

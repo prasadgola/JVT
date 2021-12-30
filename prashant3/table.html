@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table V02</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="table.css">
+
+</head>
+<body>
+	
+	<!-- <div class="limiter"> -->
+		<div class="container-table100">
+			<div class="wrap-table100">
+					<div class="table" id = "mytable">
+
+						<div class="row header">
+							<div class="cell">
+								Full Name
+							</div>
+							<div class="cell">
+								Age
+							</div>
+							<div class="cell">
+								Job Title
+							</div>
+							<div class="cell">
+								Location
+							</div>
+							<div class="cell">
+								mom
+							</div>
+							<div class="cell">
+								dad
+							</div>
+						</div>
+
+
+
+						<div class="row">
+							<div class="cell" data-title="Full Name">
+								<a href = " ">Vincent Williamson</a>
+							</div>
+							<div class="cell" data-title="Age">
+								<a href = " ">31</a>
+							</div>
+							<div class="cell" data-title="Job Title">
+								<a href = " ">iOS Developer</a>
+							</div>
+							<div class="cell" data-title="Location">
+								<a href = " ">Washington</a>
+							</div>
+							<div class="cell" data-title="Location">
+								<a href = " ">Washington</a>
+							</div>
+							<div class="cell" data-title="Location">
+								<a href = " ">Washington</a>
+							</div>
+						</div>
+
+						</div>
+
+						<div class="row">
+							<div class="cell" data-title="Full Name">
+								Joseph Smith
+							</div>
+							<div class="cell" data-title="Age">
+								27
+							</div>
+							<div class="cell" data-title="Job Title">
+								Project Manager
+							</div>
+							<div class="cell" data-title="Location">
+								Somerville, MA
+							</div>
+							<div class="cell" data-title="Location">
+								Washington
+							</div>
+							<div class="cell" data-title="Location">
+								Washington
+							</div>
+						</div>
+
+<script>
+	
+	var table = '';
+	var rows = 1;
+	var cars = ["Vincent Williamson", "130", "Somerville, MA","Washington","Washington","Washington"];
+	for(var r = 0; r < rows; r++)
+	{
+		table += '<div class="row">';
+			for(var c = 0; c <= 5; c++)
+			{
+				table += '<div class="cell">' + cars[c] + '</div>';
+
+			}
+		table += '</div>';
+	}
+	document.write('<table>' + table + '</table>')
+</script>
+
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+
+</body>
+</html>
